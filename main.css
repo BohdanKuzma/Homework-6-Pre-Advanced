@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f5f6fa;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form1 {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 200px auto;
+    border-radius: 8px;
+}
+
+.input_fname,
+.input_lname,
+.input_email,
+.input_pass,
+.input_email2,
+.input_pass2,
+.submit_block1,
+.submit_block2 {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.wrapperInput {
+    position: relative;
+}
+
+.input_fname:focus,
+.input_lname:focus,
+.input_email:focus,
+.input_pass:focus,
+.input_email2:focus,
+.input_pass2:focus,
+.submit_block1:focus,
+.submit_block2:focus {
+    outline: 1px solid #74b9ff;
+
+}
+
+.sign_up_now {
+    width: 100px;
+    background: transparent;
+    border: none;
+    color: #74b9ff;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign_up_now:hover {
+    text-decoration: underline;
+}
+
+.submit_block1 {
+    background-color: #4b7bec;
+    color: white;
+    cursor: pointer;
+}
+
+.submit_block1:disabled {
+    background-color: white;
+    color: #4b7bec;
+    border: 1px solid #4b7bec;
+}
+
+.submit_block1:disabled:hover {
+    background-color: white;
+    color: #4b7bec;
+}
+
+
+
+.submit_block2 {
+    background-color: #26de81;
+    color: white;
+    cursor: pointer;
+}
+
+.submit_block1:hover {
+    background-color: #3867d6;
+    color: white;
+    cursor: pointer;
+}
+
+.submit_block2:hover {
+    background-color: #20bf6b;
+    transition: all 0.4s;
+
+}
+
+.true_1 {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+
+.true_2 {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+
+.true_3 {
+    width: 30px;
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 13px;
+}
+
+.true_4 {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+
+.false_1 {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+
+.false_2 {
+    width: 30px;
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 13px;
+}
+
+.false_3 {
+    width: 30px;
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 13px;
+}
+
+.false_4 {
+    width: 30px;
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 13px;
+}
+
+.form2 {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 300px auto;
+    border-radius: 8px;
+    display: none;
+    position: relative;
+}
+
+.user_window {
+    width: 600px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #c8d6e5;
+    display: none;
+}
+
+.user_icon {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.subtext {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.sign_out {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 210px;
+    border-radius: 4px;
+    border: none;
+    background-color: #26de81;
+    color: white;
+    cursor: pointer;
+}
+
+.sign_out:hover {
+    background-color: #20bf6b;
+    transition: all 0.4s;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: grey;
+    margin-top: 25px;
+}
+
+.info_user {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.email_user {
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.active {
+    display: flex;
+}
+
+.noactive {
+    display: none;
+}
+
+
+.modal_error_email {
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 53px;
+    background-color: #e74c3c;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    display: none;
+}
+
+.modal_error2 {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    top: 246px;
+    background-color: #e74c3c;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    display: none;
+}
